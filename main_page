@@ -5,6 +5,13 @@
 <title>Chiory's Aesthetic Profile</title>
 </head>
 <body>
+<button onclick="setDesign('design1')">Design 1</button>
+<button onclick="setDesign('design2')">Design 2</button>
+
+<div class="left design1" id="leftPanel">
+    <div class="avatar"></div>
+    <div class="name">Orion</div>
+</div>
 
 <div class="card">
     <div class="left">
@@ -14,9 +21,11 @@
 
         <div class="stats">
             <div><strong>Rank:</strong> 60</div>
-            <div><strong>Mundo:</strong> 9</div>
-            <div><strong>Conquistas:</strong> 889</div>
-            <div><strong>Abismo:</strong> 11-1</div>
+            <div><strong>World Level:</strong> 9</div>
+            <div><strong>Achievments:</strong> 889</div>
+            <div><strong>Abyss:</strong> 11-1</div>
+            <div><strong>Imaginarium Theather</strong> act 5, 3 stars</div>
+            <div><strong>Stygian Onslaught</strong> 178s</div>
         </div>
     </div>
 

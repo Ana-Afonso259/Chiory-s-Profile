@@ -1,80 +1,15 @@
-body {
-    background-color: slategrey;
+.left.design1 {
+    background: lightblue;
 }
-body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background: #0f172a;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
 
-    .card {
-        width: 800px;
-        background: #f5f5dc;
-        border-radius: 12px;
-        display: flex;
-        overflow: hidden;
-        box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    }
+.left.design1 .avatar {
+    background-image: url("img1.png");
+}
 
-    .left {
-        width: 40%;
-        background: linear-gradient(135deg, #4c6ef5, #74c0fc);
-        color: white;
-        padding: 20px;
-        text-align: center;
-    }
+.left.design2 {
+    background: pink;
+}
 
-    .avatar {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        background: white;
-        margin: 0 auto 10px;
-    }
-
-    .name {
-        font-size: 24px;
-        font-weight: bold;
-    }
-
-    .subtitle {
-        font-size: 14px;
-        opacity: 0.8;
-        margin-bottom: 20px;
-    }
-
-    .stats {
-        text-align: left;
-        font-size: 14px;
-    }
-
-    .stats div {
-        margin: 5px 0;
-    }
-
-    .right {
-        width: 60%;
-        padding: 20px;
-        background: #fff8dc;
-    }
-
-    .characters {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 10px;
-    }
-
-    .char {
-        background: #ddd;
-        border-radius: 8px;
-        height: 80px;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        font-size: 12px;
-        padding: 5px;
-    }
+.left.design2 .avatar {
+    background-image: url("img2.png");
+}
